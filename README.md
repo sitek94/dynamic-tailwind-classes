@@ -8,6 +8,12 @@ list.map(({ name, value }) => (
 ));
 ```
 
+I created a script that generates a json file with all the class names that I need. This file is then
+referenced in the `tailwind.config.js` file, so that they will be available in the build process.
+
+However, there might be a better way to do it, as I've just seen [Safelist](https://tailwindcss.com/docs/content-configuration#safelisting-classes)
+option in the Tailwind documentation. I've got to check that out.
+
 ## Bootstrapped with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
